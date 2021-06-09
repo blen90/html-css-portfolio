@@ -118,6 +118,22 @@ div.transbox {
     text-align: center; 
 }
 
+.project-picture {
+    width: 33%;
+    height: 33%;
+    border:solid black;  
+}
+
+.hum1{
+    width: 200px;
+    height: 300%;
+    border:solid black;  
+}
+
+.link{
+    text-color
+}
+
 .container3 {
     align-items: center;
     border: 5px solid black;
