@@ -11,8 +11,6 @@
 }
 
 header {
-    position: relative;
-    display: flex;
     justify-content: space-between;
     height: 100px;
     width: 100%;
@@ -20,6 +18,15 @@ header {
     background-color: teal;
 }
 
+.subtitle {
+    margin-right: auto;    
+    margin-left: auto;    
+    max-width: 100%;
+    position: absolute;
+    top: 50px;
+    right: 5px;
+
+}
 
  li {
     justify-content: space-evenly;
@@ -35,7 +42,6 @@ ul {
     padding-inline-start: 0px;
     margin-block-start: -2em;
     text-align: right;
-    /*margin-right: -75px;*/
     position: relative;
 }
 
@@ -56,74 +62,80 @@ section {
     justify-content: left;
 }
 
-div.transbox {
-    margin: 30px;
-    background-color: white;
-    border: 1px solid black;
-    opacity: 0.6;
-    width: auto;
-}
 
 div.transbox {
-    margin: 15%;
+    margin: 10%;
     font-weight: bold;
-    color: black;
+    color: white;
     object-position: center;
+    width: auto;
+
 }
 
 .container1 {
     align-items: center;
-    border: 1px solid black;
-    border-color: black;
+    border: 5px solid black;
+    border-color: teal;
     border-radius: 15px;
     margin: 10px;
     position: relative;
-    text-align: center;
+    text-align: center;   
 }
 
-h3 {
-    font-size: 2em;
-    margin-block-start: 0.50em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 600px;
-    margin-inline-end: 400px;
-    font-weight: normal;
-    border: 1px solid black;
-    border-color: black;
-    border-radius: 5px;
-    text-align: center;
-    position: relative;
-    align-items: center;
+.portfolio-picture {
+    width: 300px;
+    height: 450px;
+    border:solid black;  
 }
+
+
+.card-header {
+    padding-top: 2%;
+    font-size: 50px;
+    margin-right: auto;    
+    margin-left: auto;    
+    max-width: 100%;
+    padding-bottom: 2%;
+}
+
+.text {
+    border: 2px;
+    font-size: 20px;
+    text-align: center;
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 10px;
+}
+
 
 .container2 {
     align-items: center;
-    border: 1px solid black;
-    border-color: black;
+    border: 5px solid black;
+    border-color: teal;
     border-radius: 15px;
     margin: 10px;
     position: relative;
-    text-align: center;
+    text-align: center; 
 }
 
 .container3 {
     align-items: center;
-    border: 1px solid black;
-    border-color: black;
+    border: 5px solid black;
+    border-color: teal;
     border-radius: 15px;
     margin: 10px;
     position: relative;
-    text-align: center;
+    text-align: center; 
 }
 
 .container4 {
     align-items: center;
-    border: 1px solid black;
-    border-color: black;
+    border: 5px solid black;
+    border-color: teal;
     border-radius: 15px;
     margin: 10px;
     position: relative;
-    text-align: center;
+    text-align: center; 
 }
 
 aside {
@@ -136,9 +148,8 @@ aside {
 }
 
 
-}
 
-.card-header {
+/*.card-header {
     text-align: left;
     border: 1px solid black;
     border-radius: 5px;
@@ -154,7 +165,16 @@ aside {
     color: white;
     padding-left: 2px;
 }
+*/
 
+.body{
+    padding-top: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center justify;
+    color: black;
+    font-size: 25px;
+    font-style:normal;
+}
 
 
 
