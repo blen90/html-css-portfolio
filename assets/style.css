@@ -35,7 +35,7 @@ ul {
     padding-inline-start: 0px;
     margin-block-start: -2em;
     text-align: right;
-    margin-right: -75px;
+    /*margin-right: -75px;*/
     position: relative;
 }
 
@@ -100,7 +100,7 @@ h3 {
     align-items: center;
     border: 1px solid black;
     border-color: black;
-    border-radius: 5px;
+    border-radius: 15px;
     margin: 10px;
     position: relative;
     text-align: center;
@@ -126,16 +126,34 @@ h3 {
     text-align: center;
 }
 
-.pictures {
+aside {
     border-color: teal;
     border-width: medium;
     border-style: groove;
     position: relative;
     object-position: right;
-    width: 100px;
+    width: 300px;
 }
 
 
+}
+
+.card-header {
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-color: white;
+    position: relative;
+    top: -35px;
+    background-color: rgb(58, 57, 57);
+}
+
+.code-block {
+    background-color: violet;
+    border-radius: 5px;
+    color: white;
+    padding-left: 2px;
+}
 
 
 
