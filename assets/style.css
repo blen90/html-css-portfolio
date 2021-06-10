@@ -177,10 +177,15 @@ h3  {
     margin-bottom: 15px;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 a:hover {
     color: yellow;
     
-  }
+}
 
 .body{
     padding-top: 5%;
