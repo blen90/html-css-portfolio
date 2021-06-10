@@ -4,6 +4,7 @@
     width: 800px;
     height: 500px;
     font-style: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     margin-left: 5%;
     text-align: left;
@@ -25,7 +26,7 @@ header {
     position: absolute;
     top: 50px;
     right: 5px;
-
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
  li {
@@ -35,7 +36,6 @@ header {
     margin-top: 20px;
     font-size: 20px;
     text-align: right;
-
 }
 
 ul {
@@ -69,7 +69,6 @@ div.transbox {
     color: white;
     object-position: center;
     width: auto;
-
 }
 
 .container1 {
@@ -83,27 +82,26 @@ div.transbox {
 }
 
 .portfolio-picture {
-    width: 300px;
+    width: ß;
     height: 450px;
     border:solid black;  
 }
 
 
-.card-header {
+h3  {
     padding-top: 2%;
     font-size: 50px;
     margin-right: auto;    
     margin-left: auto;    
     max-width: 100%;
-    padding-bottom: 2%;
+    padding-bottom: 10px
 }
 
 .text {
     border: 2px;
     font-size: 20px;
     text-align: center;
-    color:black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
     padding-bottom: 10px;
 }
 
@@ -121,17 +119,20 @@ div.transbox {
 .project-picture {
     width: 33%;
     height: 33%;
-    border:solid black;  
+    margin-top: 30px;  
 }
 
 .hum1{
     width: 200px;
     height: 300%;
     border:solid black;  
+    margin-bottom: 20px;
 }
 
 .link{
-    text-color
+    padding-top: 20px;
+    font-size: 30px;
+    color:white;
 }
 
 .container3 {
@@ -144,6 +145,12 @@ div.transbox {
     text-align: center; 
 }
 
+.resume {
+    padding-top: 20px;
+    font-size: 40px;
+    color:white; 
+}
+
 .container4 {
     align-items: center;
     border: 5px solid black;
@@ -154,42 +161,37 @@ div.transbox {
     text-align: center; 
 }
 
-aside {
-    border-color: teal;
-    border-width: medium;
-    border-style: groove;
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     position: relative;
-    object-position: right;
-    width: 300px;
-}
-
-
-
-/*.card-header {
-    text-align: left;
-    border: 1px solid black;
-    border-radius: 5px;
-    border-color: white;
-    position: relative;
-    top: -35px;
-    background-color: rgb(58, 57, 57);
-}
-
-.code-block {
-    background-color: violet;
-    border-radius: 5px;
+    align-content: center;
+    text-justify: justify;
     color: white;
-    padding-left: 2px;
+    margin-bottom: 15px;
 }
-*/
+
+a:hover {
+    color: yellow;
+    
+  }
 
 .body{
     padding-top: 5%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center justify;
     color: black;
     font-size: 25px;
     font-style:normal;
+}
+
+footer {
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    line-height: 100px;
+    background-color: teal;
 }
 
 
