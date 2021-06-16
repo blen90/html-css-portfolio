@@ -1,5 +1,7 @@
 # hw2-portfolio
 
+https://blen90.github.io/hw2-portfolio/
+
 ## My task
 
 My task for this homework was to create my personal porftolio from scratch using an HTML file and a CSS stylesheet. 
