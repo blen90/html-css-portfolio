@@ -5,7 +5,7 @@
     height: 500px;
     font-style: bold;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 5%;
     text-align: left;
     color:whitesmoke;
@@ -29,7 +29,7 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
- li {
+li {
     justify-content: space-evenly;
     display: inline;
     padding-right: 30px;
@@ -46,7 +46,7 @@ ul {
 }
 
 div.viewport {
-    background-image: url("./images/lavender-field.jpg");
+    background-image: url("./images/purple.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -66,12 +66,13 @@ section {
 div.transbox {
     margin: 10%;
     font-weight: bold;
-    color: white;
+    color: black;
     object-position: center;
     width: auto;
 }
 
 .container1 {
+    background-color: rgba(230, 225, 225, .55);
     align-items: center;
     border: 5px solid black;
     border-color: teal;
@@ -82,32 +83,55 @@ div.transbox {
 }
 
 .portfolio-picture {
-    width: ß;
-    height: 450px;
+    margin-top: 20px;
+    width: 50%;
+    height: 50%;
     border:solid black;  
 }
 
+div.body{
+    align-items: center;
+}
+
+#about-me, #work, #resume, #contact-me   {
+    text-shadow: white 0.3em 0.3em 0.3em;
+    color: rgb(83, 4, 83);
+    font-size: 100px;  
+    text-align: center;
+    
+}
+
+p.text {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
 
 
 h3  {
+    color: rgb(237, 243, 243);
+    text-shadow: black 0.3em 0.3em 0.3em;
     padding-top: 2%;
     font-size: 50px;
     margin-right: auto;    
     margin-left: auto;    
     max-width: 100%;
-    padding-bottom: 10px
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    
 }
 
 .text {
     border: 2px;
     font-size: 20px;
     text-align: center;
-    color:white;
+    color:black;
     padding-bottom: 10px;
 }
 
 
 .container2 {
+    background-color: rgba(230, 225, 225, .55);
     align-items: center;
     border: 5px solid black;
     border-color: teal;
@@ -118,29 +142,28 @@ h3  {
 }
 
 .project-picture {
-    width: 33%;
-    height: 33%;
-    margin-top: 30px;  
+    width: 50%;
+    height: 50%;
+    margin-top: 60px;  
 }
 
 .project-picture:hover {
     transform: scale(1.2);
 }
 
-.hum1{
-    width: 200px;
-    height: 300%;
-    border:solid black;  
-    margin-bottom: 20px;
+.website-link {
+    width: auto;
 }
 
-.link{
+.link {
+    font-size: 20px;
     padding-top: 20px;
     font-size: 30px;
-    color:white;
+    color:black;
 }
 
 .container3 {
+    background-color: rgba(230, 225, 225, .55);
     align-items: center;
     border: 5px solid black;
     border-color: teal;
@@ -150,13 +173,22 @@ h3  {
     text-align: center; 
 }
 
+.resume1 {
+    margin-top: 25px;
+    width:750px;
+    height: 1000px;
+}
+/* div.body {
+    display: grid;
+} */
 .resume {
     padding-top: 20px;
     font-size: 40px;
-    color:white; 
+    color:black; 
 }
 
 .container4 {
+    background-color: rgba(230, 225, 225, .55);
     align-items: center;
     border: 5px solid black;
     border-color: teal;
@@ -167,19 +199,21 @@ h3  {
 }
 
 .contact-me {
+    background-color: rgba(230, 225, 225, .55);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     position: relative;
     align-content: center;
     text-justify: justify;
-    color: white;
+    color: black;
     margin-bottom: 15px;
 }
 
 a {
-    color: white;
-    text-decoration: none;
+    width: 50%;
+    color: blue;
+    text-decoration: none; 
 }
 
 a:hover {
@@ -188,13 +222,16 @@ a:hover {
 }
 
 .body{
+    display: flexbox;
     padding-top: 5%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center justify;
     color: black;
-    font-size: 25px;
+    font-size: 50px;
     font-style:normal;
 }
+
+
 
 footer {
     justify-content: space-between;
