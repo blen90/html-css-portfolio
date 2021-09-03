@@ -1,6 +1,6 @@
-# hw2-portfolio
+# HTML and CSS Portfolio 
 
-https://blen90.github.io/hw2-portfolio/
+https://blen90.github.io/html-css-portfolio/
 
 ## My task
 
