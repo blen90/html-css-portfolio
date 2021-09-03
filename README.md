@@ -19,10 +19,10 @@ https://blen90.github.io/html-css-portfolio/
 
 ![Portfolio](assets/images/portfolio.jpg)
 ![Portfolio](assets/images/portfolio2.jpg)
-![Portfolio](assets/images/porfolio3.jpg)
-![Portfolio](assets/images/porfolio4.jpg)
-![Portfolio](assets/images/porfolio5.jpg)
-![Portfolio](assets/images/porfolio6.jpg)
+![Portfolio](assets/images/portfolio3.jpg)
+![Portfolio](assets/images/portfolio4.jpg)
+![Portfolio](assets/images/portfolio5.jpg)
+![Portfolio](assets/images/portfolio6.jpg)
 
 # Table of Contents
 
