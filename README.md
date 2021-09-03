@@ -1,30 +1,67 @@
 # HTML and CSS Portfolio 
 
+[![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](https://blen90.github.io/html-css-portfolio/)
+
+# Description
+
+This app is my personal portfolio and it was created using HTML and CSS. The porftolio has different sections such as: 
+* About me
+* Work (Apps and Projects) 
+* Resume
+* Contact Me 
+
+## Deployed App link 
+
 https://blen90.github.io/html-css-portfolio/
 
-## My task
 
-My task for this homework was to create my personal porftolio from scratch using an HTML file and a CSS stylesheet. 
+## Screenshots of the app
 
-This porfolio contains the following information:
-- My full name Blenda Maricela Orellana Andrade
-- Nav bar with links to sections in the page.
-- A short paragraph about me and a picture
-- My first work application in "work" with a link to view it and a picture and also 3 extra pictures for projects that I will be working on. 
-- It contains a direct Googledrive link to my Resume
-- Contact information which is not real as I don't feel okay sharing my personal details with links to mailto, linkedin and twitter.
-- Footer with information of who created the website which in this case was me. 
+![Portfolio](assets/images/portfolio.jpg)
+![Portfolio](assets/images/portfolio2.jpg)
+![Portfolio](assets/images/porfolio3.jpg)
+![Portfolio](assets/images/porfolio4.jpg)
+![Portfolio](assets/images/porfolio5.jpg)
+![Portfolio](assets/images/porfolio6.jpg)
 
-# Prerequisites
-Before you begin, ensure you have met the following requirements:
-* You have installed the latest version of Visual Studio Code. 
-* You are using a Windows or Mac OS machine. OS version 10 or above.
-* You have installed the lastest Google Chrome browser.
+# Table of Contents
 
-## Screenshot of finished project
+* [Installation](#installation)
+    
+* [Usage](#usage)
 
-![Finished project](assets/images/portfolio.jpg)
-![Finished project](assets/images/portfolio2.jpg)
-![Finished project](assets/images/porfolio3.jpg)
+* [Technology](#technology)
+
+* [License](#license)
+
+* [Contributors](#contributors)
+
+* [Questions](#questions)
+
+# Installation
+
+Visit the deployed app to see the portfolio in the following link: https://blen90.github.io/html-css-portfolio/
+
+# Usage
+
+The user can view my personal portfolio
+
+# Technology
+
+* HTML
+* CSS
+
+# License 
+
+This project is governed by: MIT License
+
+# Contributors
+
+Blenda Orellana
 
 
+# Questions
+
+If you have any questions about the repo or the app please feel free to contact me
+ * Email: blen.or90@gmail.com
+ * Github: https://github.com/blen90
